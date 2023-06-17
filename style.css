@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+.main-div {
+  background-color: rgb(53, 49, 49);
+  width: 1340px;
+  height: 100vh;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  min-width: 500px;
+  height: 450px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 2px solid #ccc4c4;
+}
+
+.container h1 {
+  text-align: center;
+  margin: 15px auto;
+}
+.top {
+  padding: 15px 15px;
+  margin: 0 60px;
+}
+.top-1 {
+  margin-bottom: 20px;
+  display: flex;
+  border-radius: 10px;
+  border: 2px solid rgb(233, 227, 227);
+}
+
+input {
+  padding: 6px 10px;
+  border-radius: 0px 5px 5px 0;
+  width: 100%;
+  background-color: #ccc4c4;
+  border: #fff;
+}
+.dollar-sign {
+  border-radius: 5px 0 0 5px;
+  width: 30px;
+  text-align: center;
+  padding-top: 5px;
+  background-color: #ccc4c4;
+}
+::placeholder {
+  padding-left: 10px;
+}
+.top-2 {
+  display: flex;
+  /* background-color: blue; */
+}
+.tip {
+  border-radius: 5px 0 0 5px;
+  padding: 5px 10px;
+
+  background-color: #ccc4c4;
+}
+.rangeControl {
+  color: black;
+}
+.top-3 {
+  margin-top: 10px;
+  display: flex;
+}
+.tip-span {
+  border-radius: 5px 0 0 5px;
+  padding: 5px 10px;
+  background-color: #ccc4c4;
+  width: 20%;
+  border-right: 1px solid black;
+}
+
+.bottom {
+  padding: 15px 15px;
+  margin: 0 60px;
+}
+.bottom-1 {
+  margin-bottom: 20px;
+  display: flex;
+  border-radius: 10px;
+  border: 2px solid rgb(233, 227, 227);
+}
+.bottom-1 span {
+  font-size: 12px;
+  background-color: #ccc4c4;
+  padding: 10px;
+  border-right: 1px solid black;
+}
+.bottom h2 {
+  margin-bottom: 10px;
+}
+.tipAmount {
+  border-radius: 5px 0 0 5px;
+  width: 30%;
+}
+.totalBill {
+  border-radius: 5px 0 0 5px;
+  width: 30%;
+}
+.bottom-2 {
+  margin-bottom: 20px;
+  display: flex;
+  border-radius: 10px;
+  border: 2px solid rgb(233, 227, 227);
+}
+.bottom-2 span {
+  font-size: 12px;
+  background-color: #ccc4c4;
+  padding: 10px;
+  border-right: 1px solid black;
+}
+.totalBill-tip {
+  border-radius: 5px 0 0 5px;
+  width: 35%;
+}
+.percentage {
+  background-color: #ccc4c4;
+  border-radius: 0 5px 5px 0;
+  width: 10%;
+}
+.btn {
+  background-color: #fff;
+  text-align: center;
+}
+
+button {
+  font-size: 14px;
+  border: none;
+  background-color: rgb(145, 130, 130);
+  padding: 5px 30px;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: rgb(41, 40, 40);
+  transition: 0.6s;
+}

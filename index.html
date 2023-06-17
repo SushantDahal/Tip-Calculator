@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="container">
+        <h1>Tip Calculator</h1>
+        <form id="tip-form"> 
+          <div class="top">
+            <div class="top-1">
+              <span class="dollar-sign">$</span>
+              <input type="number" id="billTotal" placeholder="Total Bill">
+            </div>
+      
+      <div class="top-2">     
+         <label class="tip" for="">Tip:</label>
+            <input
+              type="range"
+              class="rangeControl"
+              id="tipRange"
+              value="0"
+              max="100"
+            />
+            <span class="percentage" id="percent"></span>
+          </div>
+          <div class="top-3">
+            <span class="tip-span">Tip %</span>
+            <input type="number" class="" id="tip-percent" placeholder="Tip Percentage">
+          </div>
+          
+        </div>
+        <hr>
+      </form>
+        <div class="bottom">
+          <h2 style="text-align: center">Result</h2>
+          <div class="bottom-1">
+            <span class="tipAmount" >Tip Amount</span>
+            <input id="tipAmount" type="number"  />
+          </div>
+          <div class="bottom-2">
+            <span class="totalBill-tip">Total Bill with Tip</span>
+            <input type="number" id="totalBillWithTip" />
+          </div>
+        </div>
+        <div class="btn">
+          <button onclick="myFunction()"> Calculate</button>
+        </div>
+        
+        </div>
+      </div>
+    
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
