@@ -15,19 +15,22 @@
           <div class="top">
             <div class="top-1">
               <span class="dollar-sign">$</span>
-              <input type="number" id="billTotal" placeholder="Total Bill">
+              <input type="number" id="billTotal" placeholder="Total Bill" min="1" max="10000">
             </div>
       
       <div class="top-2">     
          <label class="tip" for="">Tip:</label>
+         <div class="slider">
             <input
               type="range"
               class="rangeControl"
               id="tipRange"
               value="0"
+              min="0"
               max="100"
             />
-            <span class="percentage" id="percent"></span>
+          </div>
+            <!-- <span class="percentage" id="percent"></span> -->
           </div>
           <div class="top-3">
             <span class="tip-span">Tip %</span>
